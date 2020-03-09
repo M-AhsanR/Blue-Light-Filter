@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Policy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head"
+                android:layout_marginTop="10dp"
+                android:text="Background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head1"
+                android:layout_marginTop="5dp"
+                android:text="@string/back"
+                android:textSize="15sp"
+
+                />
+
+            <TextView
+                android:id="@+id/head3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head2"
+                android:text="Age"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/head4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head3"
+                android:layout_marginTop="5dp"
+                android:text="@string/age"
+                android:textSize="15sp"
+
+                />
+
+            <TextView
+                android:id="@+id/head5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head4"
+                android:text="Information from other sources"
+                android:textSize="18sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/head6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head5"
+                android:text="@string/inn"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/head7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head6"
+                android:text="The right to object"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head7"
+                android:layout_marginTop="5dp"
+                android:text="@string/right"
+
+                />
+
+            <TextView
+                android:id="@+id/head9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head8"
+                android:text="Right to rectification and erasure"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head9"
+                android:layout_marginTop="5dp"
+                android:text="@string/right1"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head10"
+                android:text="Right to rectification and erasure"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/head12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head11"
+                android:layout_marginTop="5dp"
+                android:text="You have the right to obtain restriction of processing in certain circumstances, see Article 18 of the GDPR. If you have the right to restriction, we will only process your data with your consent or for the establishment, exercise or defense of a legal claim or to protect a person or important grounds of public interest"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head12"
+                android:text="The right to withdraw consent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/head14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head13"
+                android:layout_marginTop="5dp"
+                android:text="@string/right2"
+
+
+                />
+
+            <TextView
+                android:id="@+id/head15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head14"
+                android:text="Collection of Information"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head15"
+                android:layout_marginTop="5dp"
+                android:text="@string/right3"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head16"
+                android:text="Use and Disclosure of Information"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head17"
+                android:layout_marginTop="5dp"
+                android:text="@string/right4"
+
+
+                />
+
+            <TextView
+                android:id="@+id/head19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head18"
+                android:text="Below are provider names of some of the third party analytics and advertising services we use. Please see the links below to learn more about the privacy policy of our third-party service providers."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/head20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head19"
+                android:layout_marginTop="5dp"
+                android:text="@string/right5"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head20"
+                android:text="Advertising"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head21"
+                android:layout_marginTop="5dp"
+                android:text="@string/right6"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head22"
+                android:text="Transfer of Information Overseas"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head23"
+                android:layout_marginTop="5dp"
+                android:text="@string/right7"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/head25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head24"
+                android:text="Security"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head25"
+                android:layout_marginTop="5dp"
+                android:text="@string/right8"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

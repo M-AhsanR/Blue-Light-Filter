@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--  <item
+        android:id="@+id/pauseDraw"
+        android:icon="@drawable/pause_nav"
+        android:title="Pause for 1 Minute"
+
+        />-->
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/stop"
+        android:title="Stop" />
+
+    <!--
+        <item android:id="@+id/removeads"
+            android:title="Remove Ads"/>-->
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share App" />
+
+    <item
+        android:id="@+id/moreapps"
+        android:icon="@drawable/more"
+        android:title="More Apps" />
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/fback"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/policy"
+        android:icon="@drawable/policy"
+        android:title="Privacy Policy" />
+
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/exit"
+        android:title="Exit" />
+
+</menu>
